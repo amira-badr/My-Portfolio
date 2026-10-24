@@ -76,7 +76,6 @@ function Hero() {
                 View Projects <ArrowRight size={20} />
               </Link>
               
-              {/* زرار تحميل الـ CV المحدث */}
               <a
                 href="/Mona Badr Ali - EN.pdf"
                 download="Mona_Badr_Ali_CV.pdf"

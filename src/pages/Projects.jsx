@@ -5,6 +5,38 @@ import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 
 function Projects() {
   const projectsList = [
+    // 1. Shop World - في المقدمة
+    {
+      title: "Shop World",
+      description: "A smart e-commerce application utilizing TanStack Query for efficient server-state management, client-side caching, real-time keyword search, paginated product listings, and dynamic product details pages.",
+      techStack: [
+        { name: "React", icon: <FaReact className="text-cyan-400" /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
+        { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
+      ],
+    },
+    // 2. Country Data Explorer - ثاني مشروع
+    {
+      title: "Country Data Explorer",
+      description: "An application designed to display country information such as population, flag design, currency, and capital by simply typing the country name in the search bar via REST API.",
+      techStack: [
+        { name: "React", icon: <FaReact className="text-cyan-400" /> },
+        { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
+      ],
+    },
+    // 3. CareerGraph - ثالث مشروع
+    {
+      title: "CareerGraph",
+      description: "An interactive full-stack web application designed to visualize career paths and skill relationships through an interactive graph database architecture.",
+      techStack: [
+        { name: "React", icon: <FaReact className="text-cyan-400" /> },
+        { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+        { name: "Express", icon: <SiExpress className="text-slate-300" /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
+      ],
+    },
+    // باقي المشاريع السابقة بنفس ترتيبها وتصميمها
     {
       title: "Prime Market",
       description: "A complete full-stack multi-vendor e-commerce platform built with React and Node.js to efficiently manage multiple sellers and store operations.",
@@ -21,15 +53,6 @@ function Projects() {
       techStack: [
         { name: "React", icon: <FaReact className="text-cyan-400" /> },
         { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
-        { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
-      ],
-    },
-    {
-      title: "Country Data Explorer",
-      description: "An application designed to display country information such as population, flag design, and currency by simply typing the country name in the search bar.",
-      techStack: [
-        { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
-        { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
         { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
       ],
     },

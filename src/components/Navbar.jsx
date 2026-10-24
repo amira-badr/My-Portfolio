@@ -23,7 +23,7 @@ function Navbar() {
     >
       <div className="max-w-7xl mx-auto h-20 px-6 sm:px-10 lg:px-16 flex items-center">
 
-        {/* Logo & Name (Mona Badr Ali) */}
+        {/* Logo & Name (Mona Badr Ali Mohamed) */}
         <NavLink
           to="/"
           className="flex items-center gap-4 shrink-0"
@@ -34,7 +34,7 @@ function Navbar() {
 
           <div>
             <h2 className="text-xl sm:text-2xl font-bold text-cyan-400 tracking-wide">
-              Mona Badr Ali
+              Mona Badr Ali Mohamed
             </h2>
             <p className="text-xs text-sky-400">
               Full Stack Developer
