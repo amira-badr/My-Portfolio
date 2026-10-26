@@ -78,7 +78,7 @@ function Hero() {
               
               <a
                 href="/Mona Badr Ali - EN.pdf"
-                download="Mona_Badr_Ali_CV.pdf"
+                download="frontend/src/assets/Mona_Badr_Ali_Mohamed_Resume_ATS_Optimized.pdf"
                 className="flex items-center gap-3 border border-cyan-400/40 text-cyan-300 px-8 py-3.5 rounded-full font-medium text-base hover:bg-cyan-400 hover:text-slate-950 transition-all duration-300 backdrop-blur-md hover:scale-105"
               >
                 Download CV <Download size={20} />

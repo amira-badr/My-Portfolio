@@ -1,5 +1,5 @@
 import React from "react";
-import { Sparkles, Mail, Phone, ExternalLink } from "lucide-react";
+import { Sparkles, Mail, ExternalLink } from "lucide-react";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { SiVercel } from "react-icons/si";
 
@@ -28,8 +28,8 @@ function Contact() {
     },
     {
       title: "LinkedIn",
-      value: "linkedin.com/in/amira-badr-2171263a9",
-      link: "https://www.linkedin.com/in/amira-badr-2171263a9",
+      value: "linkedin.com/in/mona-badr-ali-mohamed-2171263a9",
+      link: "https://www.linkedin.com/in/mona-badr-ali-mohamed-2171263a9/",
       icon: <FaLinkedin className="text-blue-400" size={24} />,
       color: "group-hover:border-blue-400/50",
     },
